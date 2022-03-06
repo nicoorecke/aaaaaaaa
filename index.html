@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solarview</title>
+</head>
+<body>
+    <header>
+        <h1>Solarview</h1>
+    </header>
+    <section>
+        <h2>Calcular Peso</h2>
+        <form onsubmit="peso_Jupiter(); return false">
+            <label for="inputCuadrado"></label>
+            <input id="peso" type="number"> 
+            <button type="button" onclick="peso_Jupiter()" id="boton">Calcular</button>
+        </form>
+    </section>
+    <section>
+        <ul id="planetas">
+        </ul>
+    </section>
+    <script src="./figuras.js"></script>
+</body>
+</html>
