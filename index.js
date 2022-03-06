@@ -9,7 +9,7 @@ function peso_Jupiter () {
     const peso = input.value;
     if (peso){
         h=0
-        lista=[]
+        lista=[ ]
         planeta=""
         for (i of gravedades) {
             
