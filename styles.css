@@ -1,0 +1,30 @@
+body{
+    height: 500px;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+}
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+h1 {
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0;
+}
+.navbar a {
+    
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
