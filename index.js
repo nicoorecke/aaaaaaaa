@@ -1,4 +1,4 @@
-
+console.log("holaaaa")
 
 
 gravedades=[3.7,8.9,9.81,3.71,24.79,9.1,7.8,11]
