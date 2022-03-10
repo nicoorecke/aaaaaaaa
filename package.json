@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/nicoorecke/solarview/issues"
   },
-  "homepage": "https://github.com/nicoorecke/solarview#readme"
+  "homepage": "https://github.com/nicoorecke/solarview#readme",
+  "dependencies": {
+    "axios": "^0.26.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
 }
